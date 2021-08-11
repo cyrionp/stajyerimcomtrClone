@@ -8,12 +8,18 @@ body{
     font-family: Work Sans;
 }
 
+h3{
+    font-weight:lighter;
+    font-size:50px;
+    line-height:1.1;
+}
+
 .navbar{
     position: fixed;
     width: 100%;
     height: 75px;
     background-color: #FFF;
-    border-bottom: 1px solid #111;
+    box-shadow: .5px .5px 20px #888888;
     z-index: 2;
 }
 
@@ -110,12 +116,6 @@ body{
     font-size: 2.1rem;
 }
 
-.content h3{
-    font-weight:lighter;
-    font-size:50px;
-    line-height:1.1;
-}
-
 .content table{
     position: relative;
     left:250px;
@@ -124,4 +124,159 @@ body{
 .content table td{
     padding:0px 50px 0px 50px;
     width:200px;
+}
+
+.content2{
+    height:200px;
+    position: relative;
+    margin:50px 250px 50px 250px;
+}
+
+.content2 li{
+    list-style:none;
+    height:30px;
+}
+
+.content3{
+    position:relative;
+    position:left;
+    font-family: 'Cormorant', serif;
+    background:#282124;
+    color:white;
+}
+
+.content3 h3{
+    position: relative;
+    left:80px;
+}
+
+.content3 p{
+    position: relative;
+    right:100px;
+    top:50px;
+}
+
+.content4{
+    width:100%;
+    position:relative;
+    float:left;
+    font-family: 'Cormorant', serif;
+    background-color:#efefef;
+    color:#282124;
+}
+
+.content4 h3{
+    position: relative;
+    left:80px;
+}
+
+.content4 p{
+    position: relative;
+    right:100px;
+    top:50px;
+}
+
+.content4 a{
+    text-decoration:none;
+    color:#282124;
+}
+
+.content4 h5{
+    background:#3d54d0;
+    width:350px;
+    padding:15px 30px 15px 30px;
+    position: relative;
+    right:100px;
+    border-radius: 4px;
+}
+
+.content4 h5:hover{
+    background-color:white;
+    transition-property: background-color;
+    transition:background-color .2s ease-in;
+}
+
+.sss{
+    background: #f4f8fa;
+    text-align:center;
+}
+
+.collapsible{
+    background-color: white;
+    color: #8d97ad;
+    cursor: pointer;
+    padding: 18px;
+    width: 730px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 2.1rem;
+    font-family:cormorant,serif;
+}
+
+.active{
+    background-color: #188ef4;
+    color:white;
+    transition-property: background-color;
+    transition:background-color .2s ease-in;
+}
+
+.accordion-content{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    color:#8d97ad;
+}
+
+.accordion-content a{
+    text-decoration: none;
+    color:#4359d1;   
+}
+
+.accordion-content a:hover{
+    color:#8f9ce4;
+    transition-property: color;
+    transition:color .2s ease-in;
+}
+
+form{
+    position: relative;
+    margin:50px 0px 50px 500px;
+}
+
+input[type=text], input[type=email] {
+    width: 800px;
+    -webkit-transition: .2s;
+    transition: .2s;
+    outline: none;
+
+    padding: .6rem 1.2rem;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: rgba(0,0,0,.07) 0 1px 1px 0,rgba(0,0,0,.07) 0 1px 3px 0,rgba(0,0,0,.03) 0 0 0 1px;
+}
+  
+input[type=text]:focus, input[type=text]:hover, input[type=email]:focus, input[type=email]:hover{
+    border: 1px solid #3d54d0;
+}
+
+.btnListeyeKatil{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    border: 2px solid;
+    border-color: #dadada #919191 #919191 #dadada;
+    padding: 4px;
+}
+
+.btnListeyeKatil:focus{
+    border-color: #919191 #dadada #dadada #919191;
+}
+
+footer{
+    text-align: center;
 }
