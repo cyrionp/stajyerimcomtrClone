@@ -1,6 +1,6 @@
 # stajyerimcomtrClone
 
-#stajyerim.com.tr
+# stajyerim.com.tr
 
 This clone is developed for 2560x1600 screen resolution, it's not responsive
 
